@@ -1,0 +1,224 @@
+.div-form{
+    overflow:hidden;
+}
+
+
+.main-content {
+    position:absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    
+}
+.title {
+    overflow: hidden;
+    position:absolute;
+    left: 50%;
+    top: 20%;
+    text-align: center;
+    width: 350px;
+    height: 40px;
+    transform: translate(-50%, -50%);
+    margin-bottom: 12%;
+}
+
+.title>h1{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 10%;
+    position:absolute;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.div-form>form>p{
+    position: relative;
+    color: white;
+    font-size: 13px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.div-form>form>div>label{
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.div-form>form>div>input {
+    transition-duration:1s;
+    transition-timing-function: linear;
+    border:none;
+    background-color: black;
+    border-bottom: 1px solid rgb(155, 151, 151);
+    padding: 5px 10px;
+    outline: none;
+    color: white;
+    font-size: 18px;
+}
+
+.div-form>form>div>input:focus {
+    border-bottom: 1px solid  rgb(22, 167, 157);
+}
+
+
+
+
+.label-last {
+    margin-left: 32%;
+}
+.input-last {
+    margin-left: 13.72%;
+}
+
+.fullname > input {
+    padding: 0% 50%;
+    width: 36%;
+}
+
+.email>input {
+   
+    width: 95%;
+}
+
+.pass > input {
+    width: 100%;
+}
+
+
+
+strong {
+    color: rgb(22, 167, 157);
+}
+
+
+
+
+
+.create-btn {
+    height: 40px;
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    border: 0.5px solid white;
+    background-color:  rgb(155, 151, 151) ;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.create-btn:hover {
+    border: none;
+    background-color:  rgb(22, 167, 157) ;
+}
+
+
+
+
+
+.sign-footer {
+    display: inline;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 3rem;
+    background-color:rgb(155, 151, 151);
+    color: white;
+}
+
+.footer,p{
+    left: 1%;
+}
+
+.flag {
+    position:absolute;
+    right: 2%;
+    width: 30px;
+}
+
+.success-main>h5{
+
+    border: 1px solid rgb(22, 167, 157);
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 17%;
+    font-size: 15px;
+    color:rgb(22, 167, 157) !important;
+
+}
+.error-main>h5{
+    border: 1px solid rgb(240, 101, 101);
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 17%;
+    font-size: 15px;
+    color:  rgb(240, 101, 101) !important;
+
+}
+
+
+
+
+
+
+
+
+
+
+.div-update-profile{
+    color: white;
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.div-update-profile form{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    transform: translate(-70%,-10%);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.div-update-profile form input{
+    transition-duration:0.5s;
+    transition-timing-function: linear;
+    border:none;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    outline: none;
+    width: 80%;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.div-update-profile form label{
+    font-size: 18px;
+    text-align: center;
+}
+.div-update-profile form button{
+    height: 30px;
+    width: 40%;
+    color: white;
+    border: none;
+    font-size: 17px;
+    border-radius: 10px;
+    background-color: #5383d3;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.div-update-profile form button:hover{
+    transform: translateY(-30%);
+    width: 80%;
+}
